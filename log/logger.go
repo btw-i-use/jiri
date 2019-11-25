@@ -16,8 +16,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"fuchsia.googlesource.com/jiri/color"
-	"fuchsia.googlesource.com/jiri/isatty"
+	"github.com/btwiuse/jiri/color"
+	"github.com/btwiuse/jiri/isatty"
 )
 
 // Logger provides for convenient logging in jiri. It supports logger

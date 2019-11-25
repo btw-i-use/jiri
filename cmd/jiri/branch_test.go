@@ -17,9 +17,9 @@ import (
 	"testing"
 	"time"
 
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/jiritest"
+	"github.com/btwiuse/jiri/project"
 )
 
 func setDefaultBranchFlags() {

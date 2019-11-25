@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/project"
-	"fuchsia.googlesource.com/jiri/jiritest/xtest"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/project"
+	"github.com/btwiuse/jiri/jiritest/xtest"
 )
 
 // FakeJiriRoot sets up a fake root under a tmp directory.

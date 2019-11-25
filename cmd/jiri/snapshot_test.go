@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/jiritest"
+	"github.com/btwiuse/jiri/project"
+	"github.com/btwiuse/jiri/tool"
 )
 
 func checkReadme(t *testing.T, jirix *jiri.X, project, message string) {

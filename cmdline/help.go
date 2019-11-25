@@ -16,7 +16,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"fuchsia.googlesource.com/jiri/textutil"
+	"github.com/btwiuse/jiri/textutil"
 )
 
 const missingDescription = "No description available"

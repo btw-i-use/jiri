@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cmdline"
+	"github.com/btwiuse/jiri/project"
 )
 
 var overrideFlags struct {

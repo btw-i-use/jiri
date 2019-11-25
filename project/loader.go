@@ -13,8 +13,8 @@ import (
 	"reflect"
 	"strings"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/gitutil"
 )
 
 type importCache struct {

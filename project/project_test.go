@@ -18,12 +18,12 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cipd"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/jiritest/xtest"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cipd"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/jiritest"
+	"github.com/btwiuse/jiri/jiritest/xtest"
+	"github.com/btwiuse/jiri/project"
 )
 
 func dirExists(dirname string) error {
@@ -2649,7 +2649,7 @@ func TestHostnameAllowed(t *testing.T) {
 		"fuchsia-internal,fuchsia-internal":     true,
 		"fuchsia-internal,fuchsia":              false,
 		",":                                     true,
-		"*google*.com,fuchsia.googlesource.com": false,
+		"*google*.com,github.com/btwiuse": false,
 	}
 	for k, v := range tests {
 		test := strings.Split(k, ",")
@@ -2675,7 +2675,7 @@ func TestCheckProjectsHostnames(t *testing.T) {
 	testProjectListsTrue := []project.Project{
 		{
 			Name:   "project1",
-			Remote: "https://fuchsia.googlesource.com/project1",
+			Remote: "https://github.com/btwiuse/project1",
 		},
 		{
 			Name:   "project2",
@@ -2689,7 +2689,7 @@ func TestCheckProjectsHostnames(t *testing.T) {
 	testProjectListsFalse := []project.Project{
 		{
 			Name:   "project1",
-			Remote: "https://fuchsia.googlesource.com/project1",
+			Remote: "https://github.com/btwiuse/project1",
 		},
 		{
 			Name:   "project2",

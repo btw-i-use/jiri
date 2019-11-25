@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
+	"github.com/btwiuse/jiri"
 )
 
 type RetryOpt interface {

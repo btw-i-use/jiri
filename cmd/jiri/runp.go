@@ -17,12 +17,12 @@ import (
 	"strings"
 	"sync"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/project"
-	"fuchsia.googlesource.com/jiri/simplemr"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cmdline"
+	"github.com/btwiuse/jiri/envvar"
+	"github.com/btwiuse/jiri/project"
+	"github.com/btwiuse/jiri/simplemr"
+	"github.com/btwiuse/jiri/tool"
 )
 
 var runpFlags struct {

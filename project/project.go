@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cipd"
-	"fuchsia.googlesource.com/jiri/gerrit"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/log"
-	"fuchsia.googlesource.com/jiri/retry"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cipd"
+	"github.com/btwiuse/jiri/gerrit"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/log"
+	"github.com/btwiuse/jiri/retry"
 )
 
 var (
@@ -42,7 +42,7 @@ var (
 const (
 	JiriProject     = "release.go.jiri"
 	JiriName        = "jiri"
-	JiriPackage     = "fuchsia.googlesource.com/jiri"
+	JiriPackage     = "github.com/btwiuse/jiri"
 	ManifestVersion = "1.1"
 )
 

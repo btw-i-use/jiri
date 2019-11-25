@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/btwiuse/jiri/jiritest"
+	"github.com/btwiuse/jiri/project"
 )
 
 func setDefaultConfigFlags() {

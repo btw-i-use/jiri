@@ -15,7 +15,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"fuchsia.googlesource.com/jiri"
+	"github.com/btwiuse/jiri"
 )
 
 var (

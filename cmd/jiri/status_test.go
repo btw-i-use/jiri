@@ -14,10 +14,10 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/jiritest"
+	"github.com/btwiuse/jiri/project"
 )
 
 func setDefaultStatusFlags() {

@@ -7,8 +7,8 @@ package main
 import (
 	"fmt"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cmdline"
 )
 
 // cmdSelfUpdate represents the "jiri update" command.

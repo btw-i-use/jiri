@@ -12,11 +12,11 @@ import (
 	"sort"
 	"sync"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/gerrit"
-	"fuchsia.googlesource.com/jiri/log"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cmdline"
+	"github.com/btwiuse/jiri/gerrit"
+	"github.com/btwiuse/jiri/log"
+	"github.com/btwiuse/jiri/project"
 )
 
 var diffFlags struct {

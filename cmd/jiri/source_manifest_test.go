@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/jiritest"
-	"fuchsia.googlesource.com/jiri/project"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/jiritest"
+	"github.com/btwiuse/jiri/project"
+	"github.com/btwiuse/jiri/tool"
 )
 
 // TestSourceManifest tests creation of source manifest.

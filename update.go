@@ -20,12 +20,12 @@ import (
 	"strings"
 	"syscall"
 
-	"fuchsia.googlesource.com/jiri/osutil"
-	"fuchsia.googlesource.com/jiri/version"
+	"github.com/btwiuse/jiri/osutil"
+	"github.com/btwiuse/jiri/version"
 )
 
 const (
-	JiriRepository   = "https://fuchsia.googlesource.com/jiri"
+	JiriRepository   = "https://github.com/btwiuse/jiri"
 	JiriCIPDEndPoint = "https://chrome-infra-packages.appspot.com/dl/fuchsia/tools/jiri"
 )
 

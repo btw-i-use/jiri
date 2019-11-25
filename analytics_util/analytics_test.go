@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"fuchsia.googlesource.com/jiri/version"
+	"github.com/btwiuse/jiri/version"
 )
 
 func TestAnalyticsDisabled(t *testing.T) {

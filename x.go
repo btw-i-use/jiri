@@ -5,8 +5,8 @@
 // Package jiri provides utilities used by the jiri tool and related tools.
 package jiri
 
-// TODO(toddw): Rename this package to fuchsia.googlesource.com/jiri, and rename the tool itself to
-// fuchsia.googlesource.com/jiri/cmd/jiri
+// TODO(toddw): Rename this package to github.com/btwiuse/jiri, and rename the tool itself to
+// github.com/btwiuse/jiri/cmd/jiri
 
 import (
 	"encoding/xml"
@@ -20,13 +20,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"fuchsia.googlesource.com/jiri/analytics_util"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/color"
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/log"
-	"fuchsia.googlesource.com/jiri/timing"
-	"fuchsia.googlesource.com/jiri/tool"
+	"github.com/btwiuse/jiri/analytics_util"
+	"github.com/btwiuse/jiri/cmdline"
+	"github.com/btwiuse/jiri/color"
+	"github.com/btwiuse/jiri/envvar"
+	"github.com/btwiuse/jiri/log"
+	"github.com/btwiuse/jiri/timing"
+	"github.com/btwiuse/jiri/tool"
 )
 
 const (

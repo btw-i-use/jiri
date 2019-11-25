@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"fuchsia.googlesource.com/jiri/jiritest/xtest"
+	"github.com/btwiuse/jiri/jiritest/xtest"
 )
 
 const (

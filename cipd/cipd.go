@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/log"
-	"fuchsia.googlesource.com/jiri/version"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/log"
+	"github.com/btwiuse/jiri/version"
 	"golang.org/x/sync/semaphore"
 )
 

@@ -4,7 +4,7 @@
 
 package main
 
-import "fuchsia.googlesource.com/jiri/cmdline"
+import "github.com/btwiuse/jiri/cmdline"
 
 // cmdRepeated represents the repeated command.
 var cmdRepeated = &cmdline.Command{

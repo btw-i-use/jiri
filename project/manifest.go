@@ -25,12 +25,12 @@ import (
 	"text/template"
 	"time"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cipd"
-	"fuchsia.googlesource.com/jiri/envvar"
-	"fuchsia.googlesource.com/jiri/gerrit"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/retry"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cipd"
+	"github.com/btwiuse/jiri/envvar"
+	"github.com/btwiuse/jiri/gerrit"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/retry"
 	"golang.org/x/net/publicsuffix"
 )
 

@@ -13,9 +13,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/collect"
-	"fuchsia.googlesource.com/jiri/gitutil"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/collect"
+	"github.com/btwiuse/jiri/gitutil"
 )
 
 type credentials struct {

@@ -11,10 +11,10 @@ import (
 	"sort"
 	"strings"
 
-	"fuchsia.googlesource.com/jiri"
-	"fuchsia.googlesource.com/jiri/cmdline"
-	"fuchsia.googlesource.com/jiri/gitutil"
-	"fuchsia.googlesource.com/jiri/project"
+	"github.com/btwiuse/jiri"
+	"github.com/btwiuse/jiri/cmdline"
+	"github.com/btwiuse/jiri/gitutil"
+	"github.com/btwiuse/jiri/project"
 )
 
 var statusFlags struct {
